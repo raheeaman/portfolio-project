@@ -1,3 +1,5 @@
+/* This is banner section */
+
 #namefont{
     font-family: "Bungee Tint", sans-serif;
     font-weight: 400;
@@ -23,4 +25,14 @@ body{
 }
 .banner-column:hover{
     box-shadow: 0 0 15px black;
+}
+
+/* This is navbar section */
+.navbar-container{
+    background-color: rgba(165, 42, 42, 0.96);
+}
+
+/* This is about section */
+.about-container{
+    background-color:teal
 }
