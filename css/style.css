@@ -29,10 +29,59 @@ body{
 
 /* This is navbar section */
 .navbar-container{
-    background-color: rgba(165, 42, 42, 0.96);
+    background-color:brown;
 }
 
 /* This is about section */
 .about-container{
     background-color:teal
 }
+.about-header{
+    padding: 5px;
+    margin-bottom:50px;
+}
+
+/* This is Education section */
+.education-container{
+    background-color: antiquewhite;
+}
+
+.circle{
+    background-color: darkslategrey;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Portfolio section */
+
+.Portfolio-container{
+    background-color:ivory
+}
+.Portfolio-header{
+    background-color:darkslategray
+}
+
+/* contact section */
+
+.contact-container{
+    background-color:wheat
+}
+
+.rubik-mono-one-regular {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: brown;
+  }
+
+  /* Form section */
+ .submitbtn:hover{
+    background-color: rgb(19, 118, 231);
+    color: aliceblue;
+    border: 1px solid rgb(19, 118, 231);
+    box-shadow: 0 0 10px black;
+ }
+ .form-label{
+    font-size: 20px;
+ }
