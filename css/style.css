@@ -40,6 +40,9 @@ body{
     padding: 5px;
     margin-bottom:50px;
 }
+.about-header:hover{
+    box-shadow: 0 0 15px rgb(12, 52, 4);
+}
 
 /* This is Education section */
 .education-container{
@@ -52,15 +55,22 @@ body{
     width: 150px;
     border-radius: 50%;
 }
+.edu-header:hover{
+    box-shadow: 0 0 15px black;
+}
 
 /* Portfolio section */
 
 .Portfolio-container{
-    background-color:ivory
+    background-color:rgb(200, 213, 157)
 }
 .Portfolio-header{
     background-color:darkslategray
 }
+.Portfolio-header:hover{
+    box-shadow: 0 0 15px darkslategrey;
+}
+
 
 /* contact section */
 
@@ -84,4 +94,24 @@ body{
  }
  .form-label{
     font-size: 20px;
+ }
+
+ /* Footer section */
+ .footer-container{
+    background-color:rgb(239, 207, 169);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+ }
+ .circle2{
+    background-color:black;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+    
+ }
+ .circle2:hover{
+    box-shadow: 0 0 15px rgb(230, 133, 54);
  }
