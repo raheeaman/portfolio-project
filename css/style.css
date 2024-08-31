@@ -1,82 +1,91 @@
 /* This is banner section */
 
-#namefont{
+#namefont {
     font-family: "Bungee Tint", sans-serif;
     font-weight: 400;
-    font-style:normal;
-    font-size:50px;
+    font-style: normal;
+    font-size: 50px;
 }
-body{
-    font-family:'Times New Roman', Times, serif;
+
+body {
+    font-family: 'Times New Roman', Times, serif;
 }
-  
-.banner-container{
+
+.banner-container {
     background-color: bisque;
 }
-.banner-column{
+
+.banner-column {
     background-color: burlywood;
     outline-color: aquamarine;
-    
+
 }
-#color1{
+
+#color1 {
     color: rgb(102, 11, 11);
     font-weight: bold;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.banner-column:hover{
+
+.banner-column:hover {
     box-shadow: 0 0 15px black;
 }
 
 /* This is navbar section */
-.navbar-container{
-    background-color:brown;
+.navbar-container {
+    background-color: brown;
 }
 
 /* This is about section */
-.about-container{
-    background-color:teal
+.about-container {
+    background-color: teal
 }
-.about-header{
+
+.about-header {
     padding: 5px;
-    margin-bottom:50px;
+    margin-bottom: 50px;
     margin-top: 30px;
 }
-.about-header:hover{
+
+.about-header:hover {
     box-shadow: 0 0 15px rgb(12, 52, 4);
 }
 
 /* This is Education section */
-.education-container{
+.education-container {
     background-color: antiquewhite;
 }
 
-.circle{
+.circle {
     background-color: darkslategrey;
     height: 150px;
     width: 150px;
     border-radius: 50%;
 }
-.edu-header:hover{
+
+.edu-header:hover {
     box-shadow: 0 0 15px black;
 }
 
 /* Portfolio section */
 
-.Portfolio-container{
-    background-color:rgb(200, 213, 157)
+.Portfolio-container {
+    background-color: rgb(200, 213, 157)
 }
-.Portfolio-header{
-    background-color:darkslategray
+
+.Portfolio-header {
+    background-color: darkslategray
 }
-.Portfolio-header:hover{
+
+.Portfolio-header:hover {
     box-shadow: 0 0 15px darkslategrey;
 }
 
 
 /* contact section */
 
-.contact-container{
-    background-color:wheat
+.contact-container {
+    background-color: wheat
 }
 
 .rubik-mono-one-regular {
@@ -84,49 +93,53 @@ body{
     font-weight: 400;
     font-style: normal;
     color: brown;
-  }
+}
 
-  /* Form section */
- .submitbtn:hover{
+/* Form section */
+.submitbtn:hover {
     background-color: rgb(19, 118, 231);
     color: aliceblue;
     border: 1px solid rgb(19, 118, 231);
     box-shadow: 0 0 10px black;
- }
- .form-label{
-    font-size: 20px;
- }
+}
 
- /* Footer section */
- .footer-container{
-    background-color:rgb(239, 207, 169);
+.form-label {
+    font-size: 20px;
+}
+
+/* Footer section */
+.footer-container {
+    background-color: rgb(239, 207, 169);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
- }
- .circle2{
-    background-color:black;
+
+}
+
+.circle2 {
+    background-color: black;
     height: 60px;
     width: 60px;
     border-radius: 50%;
     display: inline-block;
     text-align: center;
     font-size: 40px;
-    
- }
- .circle2:hover{
+
+}
+
+.circle2:hover {
     box-shadow: 0 0 15px rgb(230, 133, 54);
- }
- 
- @media (max-width: 576px) {
+}
+
+@media (max-width: 576px) {
     .banner-container h1 {
-      font-size: 2rem;
+        font-size: 2rem;
     }
+
     .card {
-      width: 100%;
+        width: 100%;
     }
-    .circle, .circle2 {
-      width: 50px;
-      height: 50px;
+
+    .circle2 {
+        width: 50px;
+        height: 50px;
     }
-  }
-  
+}
